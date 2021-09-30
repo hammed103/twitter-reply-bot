@@ -1,5 +1,2 @@
-tweepy == 4.0.0
 scheduler
 flask
-logging
-git+https://github.com/tweepy/tweepy.git
