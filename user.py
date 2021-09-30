@@ -24,7 +24,7 @@ api = tweepy.API(auth)
 username = 'license2gain ' #if sigle user ('xxxyyyy')
 
 #keywords in lowercase
-keywords = ['#roll', 'kanye','dance'] #if single keyword ['xxxxxyyy']
+    keywords = ['#roll', 'kanye','dance'] #if single keyword ['xxxxxyyy']
 
 
 
