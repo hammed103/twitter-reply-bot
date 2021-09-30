@@ -6,12 +6,11 @@ import random
 from credentials import *
 import schedule
 
-
-
-'''consumer_key = environ['consumer_key']
+from os import environ
+consumer_key = environ['consumer_key']
 consumer_secret = environ['consumer_secret']
 access_token = environ['access_token']
-access_token_secret = environ['access_token_secret']'''
+access_token_secret = environ['access_token_secret']
 
 
 logging.basicConfig(level=logging.INFO)
