@@ -1,5 +1,7 @@
 import tweepy
 
+import sys
+from os import environ
 from time import sleep
 import logging
 import random
