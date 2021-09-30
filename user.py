@@ -9,10 +9,11 @@ from credentials import *
 import schedule
 
 from os import environ
-consumer_key = environ['consumer_key']
-consumer_secret = environ['consumer_secret']
-access_token = environ['access_token']
-access_token_secret = environ['access_token_secret']
+
+consumer_key =          'NePesRDyelrnvyZiQsxHFz93z'
+consumer_secret =       'OPY94aJ2YDndSSxhvqJ7C4C23521SkrTAP2dWzCpXwr0I4WgiH'
+access_token =          '1442650978457722881-2vC2X0UIUubRUiJt4IuEwhx3oj3j2A'
+access_token_secret =   'Fw6x7zL7KGFk2JOtXVMYAjLcOebxhZIAkpmu4b0GfQLip'
 
 
 logging.basicConfig(level=logging.INFO)
