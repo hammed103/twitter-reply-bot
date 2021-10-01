@@ -23,7 +23,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 #handle without the @
-username = ['license2gain' ] #if sigle user ('xxxyyyy')
+username = ['SheyiToBadttt' ] #if sigle user ('xxxyyyy')
 
 #keywords in lowercase
 
@@ -52,7 +52,7 @@ def reply():
     print ('New session')
     for user in username:
         logger.info("Listening to {}  ".format(user))
-        for tweet in tweepy.Cursor(api.user_timeline,screen_name =user  ,).items(20):
+        for tweet in tweepy.Cursor(api.user_timeline,screen_name =user  ,).items(2):
             try:
                 if str(tweet.id) not in open('reply_history.txt', 'r').read().split('\n'):
                     sn = tweet.user.screen_name
