@@ -23,7 +23,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 #handle without the @
-username = ['license2gain', 'SheyiToBadttt' ] #if sigle user ('xxxyyyy')
+username = ['license2gain' ] #if sigle user ('xxxyyyy')
 
 #keywords in lowercase
 
