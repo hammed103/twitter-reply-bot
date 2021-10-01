@@ -5,7 +5,7 @@ from os import environ
 from time import sleep
 import logging
 import random
-import schedule
+#import schedule
 
 from os import environ
 
@@ -74,8 +74,8 @@ def reply():
             logger.info(" {} new tweets by {} replied to ".format(count,user))
 #Restarts program every x seconds , please make large enough to avoid ban .
 # Depends on how often we expect our user to post new content
-schedule.every(120).seconds.do(reply)
+''' schedule.every(120).seconds.do(reply)
 
 while True:
     schedule.run_pending()
-    sleep(1)
+    sleep(1) '''
